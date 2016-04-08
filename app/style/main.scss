@@ -20,6 +20,11 @@ h2 {
 	background: #fff;
 	padding: 10px;
 
+	li {
+		display: inline-block;
+		margin: 0 20px;
+	}
+
 	a:link, a:visited {
 		color: #556;
 	}
