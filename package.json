@@ -1,29 +1,27 @@
 {
   "name": "kanzhihu-with-react",
   "version": "1.0.0",
-  "description": "a website build by using kanzhishu API & React",
+  "description": "a website built by kanzhishu API & React",
   "main": "index.js",
   "scripts": {
     "build": "webpack --progress --profile --colors",
     "dev": "webpack-dev-server --progress --profile --colors --hot --content-base build",
-    "test": "karma start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/btfrankenstein/kanzhihu-with-react"
   },
   "keywords": [
     "react",
+    "kanzhihu",
     "webpack",
     "babel",
-    "es6"
+    "react-router"
   ],
-  "author": "viking",
+  "author": "chengbin",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
+  "homepage": "https://github.com/btfrankenstein/kanzhihu-with-react",
   "devDependencies": {
     "babel-core": "^6.3.15",
     "babel-loader": "^6.2.0",
