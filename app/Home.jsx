@@ -19,9 +19,9 @@ export default class Home extends React.Component{
   render() {
     return(
     <div className="content">
-    <h1>React Kanzhihu</h1>
-       <ul role="nav">
-         <li><Link to="/">NavBar</Link></li>
+    <h2>看知乎 with React</h2>
+       <ul role="nav" className="nav">
+         <li><Link to="/">首页</Link></li>
        </ul>
        {this.props.children}
       <Posts data={this.state.data} />
