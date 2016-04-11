@@ -3,8 +3,9 @@ import { Link } from 'react-router'
 
 export default class Posts extends React.Component {
   render() {
+    var postNodes;
     if(this.props.data.posts) {
-      var postNodes = this.props.data.posts.map((post) => {
+      postNodes = this.props.data.posts.map((post) => {
         var date = post.date.split('-').join('')
         var name = post.name
         return (

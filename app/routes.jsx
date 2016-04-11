@@ -1,13 +1,13 @@
 import React from 'react'
-import { Route } from 'react-router'
+import { Route, IndexRoute } from 'react-router'
 import SelectedList from './components/SelectedList'
-import Posts from './components/Posts'
+import GetPosts from './components/GetPosts'
 import Home from './Home'
 
 module.exports = (
   <div>
     <Route path="/" component={Home}>
-      <Route path="/post" component={Posts} />
+      <IndexRoute component={GetPosts} />
       <Route path="/getpostanswers/:date/:name" component={SelectedList} />
     </Route>
   </div>

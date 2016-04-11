@@ -1,7 +1,7 @@
 import React from 'react'
 import AnswerSummary from './AnswerSummary'
 
-export default class AnswerContent extends React.Component{
+export default class AnswerContent extends React.Component {
   render() {
     return (
       <div className="answerContent">
